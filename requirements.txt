@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+seaborn==0.13.2
+geopandas
+shapely
+pyproj
+matplotlib
+

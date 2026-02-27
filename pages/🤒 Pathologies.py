@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 import re
 
-data = pd.read_csv('../data/pathologie_clean.csv',sep=",")
+data = pd.read_csv('data/pathologie_clean.csv',sep=",")
 # Création des onglets
 tab1, tab2, tab3 = st.tabs([
     " Profil épidémiologique de la Haute-Garonne (2023)",

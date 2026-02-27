@@ -6,7 +6,7 @@ import pandas as pd
 st.set_page_config(layout="wide", page_title="Dashboard Santé Occitanie")
 
 # ─── CHARGEMENT DONNÉES ───────────────────────────────────────────
-df = pd.read_csv("../data/finess_occitanie2.csv", dtype={"departement": str})
+df = pd.read_csv("data/finess_occitanie2.csv", dtype={"departement": str})
 df_distances = pd.read_csv("data/distances_communes_urgence_occitanie.csv")
 df_communes = pd.read_csv("data/communes-france-2025.csv", sep=",", encoding="utf-8")
 df_communes_occitanie = df_communes[df_communes['reg_nom'] == 'Occitanie']
